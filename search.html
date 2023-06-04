@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/index.css">
+</head>
+
+<body>
+    <h1>Search</h1>
+    <form action="https://fom.in.ua/echo" method="post">
+        <ul>
+            <li>
+                <label> Тип кузова
+                    <select name="Тип кузова- " id="select-type">
+                        <option>Седан</option>
+                        <option>Пикап</option>
+                        <option>Кроссовер</option>
+                        <option>Купе</option>
+                        <option>Минивэн</option>
+                    </select>
+                </label>
+            </li>
+            <br>
+            <li>
+                <label> Марка
+                    <select name="Марка- " id="select-mark">
+                        <option>Mercedes</option>
+                        <option>BMW</option>
+                        <option>KIA</option>
+                        <option>Nissan</option>
+                        <option>Mazda</option>
+                    </select>
+                </label>
+            </li>
+            <br>
+            <li>
+                <label> Рік від
+                    <select name="Рік від - " id="year-from">
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                    </select>
+                </label>
+            </li>
+            <br>
+            <li>
+                <label> Рік до
+                    <select name="Рік до - " id="year-to">
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                    </select>
+                </label>
+            </li>
+            <br>
+            <li>
+                <label>Ціна
+                    <input id="cost-from" name="Ціна від- " type="number" placeholder="від">
+                    <input id="cost-to" name="Ціна до- " type="number" placeholder="до">
+                </label>
+            </li>
+            <br>
+            <li>
+                <label>Стан
+                    <select name="Стан -" id="stage">
+                        <option>Бита</option>
+                        <option>У кредиті</option>
+                        <option>Нерозмитнена</option>
+                    </select>
+                </label>
+            </li>
+            <br>
+            <li>
+                <label>Коробка передач
+                    <select name="Коробка передач- " id="transmission">
+                        <option>Авто</option>
+                        <option>Механіка</option>
+                    </select>
+                </label>
+            </li>
+            <br>
+            <li>
+                <label>Колір
+                    <select name="Колір- " id="color">
+                        <option>Чорний</option>
+                        <option>Білий</option>
+                        <option>Червоний</option>
+                        <option>Жовтий</option>
+                        <option>Зелений</option>
+                        <option>Рожевий</option>
+                    </select>
+                </label>
+            </li>
+            <br>
+        </ul>
+        <button type="submit">Готово</button>
+</body>
+
+</html>

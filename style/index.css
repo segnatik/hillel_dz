@@ -1,17 +1,14 @@
-body {
-    padding-left: 25px;
-    font-size: large;
-}
-
-.photo {
-    width: 30rem;
-    height: 35rem;
-}
-
-.contact {
+.log {
+    position: relative;
+    bottom: 150px;
+    left: 5em;
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-family: Georgia, serif;
     font-weight: bold;
-}
-
-.pb {
-    padding-bottom: 10px;
+    font-size: 2em;
+    padding-left: 3px;
+    background-color: #fff;
+    cursor: grab;
 }
