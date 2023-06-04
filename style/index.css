@@ -1,0 +1,17 @@
+body {
+    padding-left: 25px;
+    font-size: large;
+}
+
+.photo {
+    width: 30rem;
+    height: 35rem;
+}
+
+.contact {
+    font-weight: bold;
+}
+
+.pb {
+    padding-bottom: 10px;
+}
